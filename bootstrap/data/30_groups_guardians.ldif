@@ -1,0 +1,11 @@
+dn: cn=guardians,ou=groups,dc=marvel,dc=com
+objectclass: Group
+objectclass: top
+groupType: 2147483650
+cn: guardians
+member: cn=Peter Quill,ou=heroes,dc=marvel,dc=com
+member: cn=Rocket Raccoon,ou=heroes,dc=marvel,dc=com
+member: cn=Groot,ou=heroes,dc=marvel,dc=com
+member: cn=Drax the Destroyer,ou=heroes,dc=marvel,dc=com
+member: cn=Mantis,ou=heroes,dc=marvel,dc=com
+

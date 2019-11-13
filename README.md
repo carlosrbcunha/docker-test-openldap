@@ -45,15 +45,15 @@ docker run --privileged -d -p 389:389 rroemhild/test-openldap
 
 ## LDAP structure
 
-### dc=avengers,dc=com
+### dc=marvel,dc=com
 
 | Admin            | Secret           |
 | ---------------- | ---------------- |
-| cn=admin,dc=avengers,dc=com | Endg4m3 |
+| cn=admin,dc=marvel,dc=com | Endg4m3 |
 
-### ou=heroes,dc=avengers,dc=com
+### ou=heroes,dc=marvel,dc=com
 
-#### cn=Tony Stark,ou=heroes,dc=avengers,dc=com
+#### cn=Tony Stark,ou=heroes,dc=marvel,dc=com
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |
@@ -65,13 +65,13 @@ docker run --privileged -d -p 389:389 rroemhild/test-openldap
 | employeeType     | Heroe |
 | givenName        | Tony |
 | jpegPhoto        | JPEG-Photo (630x507 Pixel, 26780 Bytes) |
-| mail             | ironman@avengers.com |
+| mail             | ironman@marvel.com |
 | ou               | heroes |
 | uid              | ironman |
 | userPassword     | ironman |
 
 
-### cn=Bruce Banner,ou=heroes,dc=avengers,dc=com
+### cn=Bruce Banner,ou=heroes,dc=marvel,dc=com
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |
@@ -83,13 +83,13 @@ docker run --privileged -d -p 389:389 rroemhild/test-openldap
 | employeeType     | Heroe |
 | givenName        | Bruce |
 | jpegPhoto        | JPEG-Photo (429x350 Pixel, 22132 Bytes) |
-| mail             | hulk@avengers.com |
+| mail             | hulk@marvel.com |
 | ou               | Heroes |
 | uid              | hulk |
 | userPassword     | hulk |
 
 
-### cn=Natasha Romanoff,ou=heroes,dc=avengers,dc=com
+### cn=Natasha Romanoff,ou=heroes,dc=marvel,dc=com
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |
@@ -101,12 +101,12 @@ docker run --privileged -d -p 389:389 rroemhild/test-openldap
 | employeeType     | Heroe |
 | givenName        | Natasha |
 | jpegPhoto        | JPEG-Photo (343x280 Pixel, 26438 Bytes) |
-| mail             | blackwidow@avengers.com |
+| mail             | blackwidow@marvel.com |
 | ou               | Heroes |
 | uid              | blackwidow |
 | userPassword     | blackwidow |
 
-### cn=Steve Rogers,ou=heroes,dc=avengers,dc=com
+### cn=Steve Rogers,ou=heroes,dc=marvel,dc=com
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |
@@ -116,12 +116,12 @@ docker run --privileged -d -p 389:389 rroemhild/test-openldap
 | description      | Human |
 | employeeType     | Heroe |
 | givenName        | Steve |
-| mail             | cptn-america@avengers.com |
+| mail             | cptn-america@marvel.com |
 | ou               | Office Management |
 | uid              | cptn-america |
 | userPassword     | cptn-america |
 
-### cn=Thor,ou=heroes,dc=avengers,dc=com
+### cn=Thor,ou=heroes,dc=marvel,dc=com
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |
@@ -131,14 +131,14 @@ docker run --privileged -d -p 389:389 rroemhild/test-openldap
 | description      | Demi God |
 | employeeType     | Heroe |
 | givenName        | Thor |
-| mail             | thor@avengers.com |
+| mail             | thor@marvel.com |
 | ou               | Heroes |
 | uid              | thor |
 | userPassword     | thor |
 
-### ou=villains,dc=avengers,dc=com
+### ou=villains,dc=marvel,dc=com
 
-### cn=Thanos,ou=villains,dc=avengers,dc=com
+### cn=Thanos,ou=villains,dc=marvel,dc=com
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |
@@ -149,58 +149,185 @@ docker run --privileged -d -p 389:389 rroemhild/test-openldap
 | employeeType     | Villain |
 | givenName        | Thanos |
 | jpegPhoto        | JPEG-Photo (429x350 Pixel, 26526 Bytes) |
-| mail             | thanos@avengers.com |
+| mail             | thanos@thanos.com |
 | ou               | Villains |
 | uid              | thanos |
 | userPassword     | thanos |
 
-### cn=Bender Bending Rodríguez,ou=people,dc=avengers,dc=com
+### cn=Johann Schmidt,ou=villains,dc=marvel,dc=com
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |
 | objectClass      | inetOrgPerson |
-| cn               | Bender Bending Rodríguez |
-| sn               | Rodríguez |
-| description      | Robot |
-| employeeType     | Ship's Robot |
-| givenName        | Bender |
-| jpegPhoto        | JPEG-Photo (436x570 Pixel, 26819 Bytes) |
-| mail             | bender@avengers.com |
-| ou               | Delivering Crew |
-| uid              | bender |
-| userPassword     | bender |
-
-### cn=Amy Wong+sn=Kroker,ou=people,dc=avengers,dc=com
-
-Amy has a multi-valued DN
-
-| Attribute        | Value            |
-| ---------------- | ---------------- |
-| objectClass      | inetOrgPerson |
-| cn               | Amy Wong |
-| sn               | Kroker |
+| cn               | Johann Schmidt |
+| sn               | Schmidt |
 | description      | Human |
-| givenName        | Amy |
-| mail             | amy@avengers.com |
-| ou               | Intern |
-| uid              | amy |
-| userPassword     | amy |
+| employeeType     | Hydra |
+| givenName        | Johann |
+| jpegPhoto        | JPEG-Photo (436x570 Pixel, 26819 Bytes) |
+| mail             | redskull@marvel.com |
+| ou               | Villains |
+| uid              | redskull |
+| userPassword     | redskull |
 
-### cn=admin_staff,ou=people,dc=avengers,dc=com
+### cn=Arnin Zola,ou=villains,dc=marvel,dc=com
+
+| Attribute        | Value            |
+| ---------------- | ---------------- |
+| objectClass      | inetOrgPerson |
+| cn               | Arnin Zola |
+| sn               | Zola |
+| description      | Human |
+| givenName        | Arnin |
+| mail             | zola@marvel.com |
+| ou               | Villains |
+| uid              | zola |
+| userPassword     | zola |
+
+### cn=Alexander Pierce,ou=villains,dc=marvel,dc=com
+
+| Attribute        | Value            |
+| ---------------- | ---------------- |
+| objectClass      | inetOrgPerson |
+| cn               | Alexander Pierce |
+| sn               | Pierce |
+| description      | Human |
+| givenName        | Alexander |
+| mail             | pierce@marvel.com |
+| ou               | Villains |
+| uid              | pierce |
+| userPassword     | pierce |
+
+### cn=Wolfgang von Strucker,ou=villains,dc=marvel,dc=com
+
+| Attribute        | Value            |
+| ---------------- | ---------------- |
+| objectClass      | inetOrgPerson |
+| cn               | Wolfgang von Strucker |
+| sn               | Strucker |
+| description      | Human |
+| givenName        | Wolfgang |
+| mail             | strucker@marvel.com |
+| ou               | Villains |
+| uid              | strucker |
+| userPassword     | strucker |
+
+### cn=Werner Reinhardt,ou=villains,dc=marvel,dc=com
+
+| Attribute        | Value            |
+| ---------------- | ---------------- |
+| objectClass      | inetOrgPerson |
+| cn               | Werner Reinhardt |
+| sn               | Reinhardt |
+| description      | Human |
+| givenName        | Werner |
+| mail             | reinhardt@marvel.com |
+| ou               | Villains |
+| uid              | reinhardt |
+| userPassword     | reinhardt |
+
+### cn=Peter Quill,ou=heroes,dc=marvel,dc=com
+
+| Attribute        | Value            |
+| ---------------- | ---------------- |
+| objectClass      | inetOrgPerson |
+| cn               | Peter Quill |
+| sn               | Quill |
+| description      | Human |
+| givenName        | Peter |
+| mail             | quill@gmarvel.com |
+| ou               | Guardians |
+| uid              | quill |
+| userPassword     | quill |
+
+### cn=Rocket Raccoon,ou=heroes,dc=marvel,dc=com
+
+| Attribute        | Value            |
+| ---------------- | ---------------- |
+| objectClass      | inetOrgPerson |
+| cn               | Rocket Raccoon |
+| sn               | Raccoon |
+| description      | Halfworlder |
+| givenName        | Werner |
+| mail             | rocket@marvel.com |
+| ou               | Guardians |
+| uid              | rocket |
+| userPassword     | rocket |
+
+### cn=Groot,ou=heroes,dc=marvel,dc=com
+
+| Attribute        | Value            |
+| ---------------- | ---------------- |
+| objectClass      | inetOrgPerson |
+| cn               | Groot |
+| sn               | Groot |
+| description      | Flora colossus |
+| givenName        | Baby |
+| mail             | groot@marvel.com |
+| ou               | Guardians |
+| uid              | groot |
+| userPassword     | groot |
+
+### cn=Drax the Destroyer,ou=heroes,dc=marvel,dc=com
+
+| Attribute        | Value            |
+| ---------------- | ---------------- |
+| objectClass      | inetOrgPerson |
+| cn               | Drax the Destroyer |
+| sn               | Destroyer |
+| description      | Male |
+| givenName        | Drax |
+| mail             | drax@marvel.com |
+| ou               | Guardians |
+| uid              | drax |
+| userPassword     | drax |
+
+### cn=Mantis,ou=heroes,dc=marvel,dc=com
+
+| Attribute        | Value            |
+| ---------------- | ---------------- |
+| objectClass      | inetOrgPerson |
+| cn               | Mantis |
+| sn               | Mantis |
+| description      | Female |
+| givenName        | Mantis |
+| mail             | mantis@marvel.com |
+| ou               | Guardians |
+| uid              | mantis |
+| userPassword     | mantis |
+
+### cn=Avengers,ou=groups,dc=marvel,dc=com
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |
 | objectClass      | Group |
-| cn               | admin_staff |
-| member           | cn=Hubert J. Farnsworth,ou=people,dc=avengers,dc=com |
-| member           | cn=Hermes Conrad,ou=people,dc=avengers,dc=com |
+| cn               | Avengers |
+| member           | cn=Tony Stark,ou=heroes,dc=marvel,dc=com |
+| member           | cn=Bruce Banner,ou=heroes,dc=marvel,dc=com |
+| member           | cn=Natasha Romanoff,ou=heroes,dc=marvel,dc=com |
+| member           | cn=Steve Rogers,ou=heroes,dc=marvel,dc=com |
+| member           | cn=Thor,ou=heroes,dc=marvel,dc=com |
 
-### cn=ship_crew,ou=people,dc=avengers,dc=com
+### cn=Hydra,ou=groups,dc=marvel,dc=com
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |
 | objectClass      | Group |
-| cn               | ship_crew |
-| member           | cn=Turanga Leela,ou=people,dc=avengers,dc=com |
-| member           | cn=Philip J. Fry,ou=people,dc=avengers,dc=com |
-| member           | cn=Bender Bending Rodríguez,ou=people,dc=avengers,dc=com |
+| cn               | Hydra |
+| member           | cn=Johann Schmidt,ou=villains,dc=marvel,dc=com |
+| member           | cn=Arnin Zola,ou=villains,dc=marvel,dc=com |
+| member           | cn=Alexander Pierce,ou=villains,dc=marvel,dc=com |
+| member           | cn=Wolfgang von Strucker,ou=villains,dc=marvel,dc=com |
+| member           | cn=Werner Reinhardt,ou=villains,dc=marvel,dc=com |
+
+### cn=Guardians,ou=groups,dc=marvel,dc=com
+
+| Attribute        | Value            |
+| ---------------- | ---------------- |
+| objectClass      | Group |
+| cn               | Guardians |
+| member           | cn=Peter Quill,ou=heroes,dc=marvel,dc=com |
+| member           | cn=Rocket Raccoon,ou=heroes,dc=marvel,dc=com |
+| member           | cn=Groot,ou=heroes,dc=marvel,dc=com |
+| member           | cn=Drax the Destroyer,ou=heroes,dc=marvel,dc=com |
+| member           | cn=Mantis,ou=heroes,dc=marvel,dc=com |

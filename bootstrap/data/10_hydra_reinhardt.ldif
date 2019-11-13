@@ -1,0 +1,14 @@
+dn: cn=Werner Reinhardt,ou=villains,dc=marvel,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Werner Reinhardt
+sn: Reinhardt
+description: Human
+givenName: Werner
+mail: reinhardt@marvel.com
+ou: villains
+uid: reinhardt
+userPassword:: e3NzaGF9M3UzcUdCSmFMc2tiUEg0OVJrYlFtUk9HTktFb1lOUXZkU2lOZmc9P
+ Q==

@@ -1,0 +1,14 @@
+dn: cn=Peter Quill,ou=heroes,dc=marvel,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Peter Quill
+sn: Quill
+description: Human
+givenName: Peter
+mail: quill@marvel.com
+ou: heroes
+uid: quill
+userPassword:: e3NzaGF9M3UzcUdCSmFMc2tiUEg0OVJrYlFtUk9HTktFb1lOUXZkU2lOZmc9P
+ Q==

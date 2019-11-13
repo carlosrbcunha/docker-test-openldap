@@ -1,0 +1,14 @@
+dn: cn=Drax the Destroyer,ou=heroes,dc=marvel,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Drax the Destroyer
+sn: Destroyer
+description: Male
+givenName: Drax
+mail: drax@marvel.com
+ou: heroes
+uid: drax
+userPassword:: e3NzaGF9M3UzcUdCSmFMc2tiUEg0OVJrYlFtUk9HTktFb1lOUXZkU2lOZmc9P
+ Q==

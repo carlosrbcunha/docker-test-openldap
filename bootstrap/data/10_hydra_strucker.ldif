@@ -1,0 +1,14 @@
+dn: cn=Wolfgang von Strucker,ou=villains,dc=marvel,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Wolfgang von Strucker
+sn: Strucker
+description: Human
+givenName: Wolfgang
+mail: strucker@marvel.com
+ou: villains
+uid: strucker
+userPassword:: e3NzaGF9M3UzcUdCSmFMc2tiUEg0OVJrYlFtUk9HTktFb1lOUXZkU2lOZmc9P
+ Q==

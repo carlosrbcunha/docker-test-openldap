@@ -1,0 +1,5 @@
+dn: ou=villains,dc=marvel,dc=com
+objectClass: top
+objectClass: organizationalUnit
+description: Marvel's villains
+ou: villains

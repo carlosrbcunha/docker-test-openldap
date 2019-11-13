@@ -1,14 +1,14 @@
-dn: cn=Amy Wong+sn=Kroker,ou=people,dc=planetexpress,dc=com
+dn: cn=Steve Rogers,ou=heroes,dc=marvel,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
-cn: Amy Wong
-sn: Kroker
+cn: Steve Rogers
+sn: Rogers
 description: Human
-givenName: Amy
-mail: amy@planetexpress.com
-ou: Intern
-uid: amy
+givenName: Steve
+mail: cpt-america@marvel.com
+ou: heroes
+uid: cpt-america
 userPassword:: e3NzaGF9M3UzcUdCSmFMc2tiUEg0OVJrYlFtUk9HTktFb1lOUXZkU2lOZmc9P
  Q==

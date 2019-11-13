@@ -1,0 +1,14 @@
+dn: cn=Natasha Romanoff,ou=heroes,dc=marvel,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Natasha Romanoff
+sn: Romanoff
+description: Human
+givenName: Natasha
+mail: blackwidow@marvel.com
+ou: heroes
+uid: blackwidow
+userPassword:: e3NzaGF9M3UzcUdCSmFMc2tiUEg0OVJrYlFtUk9HTktFb1lOUXZkU2lOZmc9P
+ Q==

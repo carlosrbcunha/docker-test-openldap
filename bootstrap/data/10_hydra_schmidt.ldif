@@ -1,0 +1,14 @@
+dn: cn=Johann Schmidt,ou=villains,dc=marvel,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Johann Schmidt
+sn: Schmidt
+description: Human
+givenName: Johann
+mail: schmidt@marvel.com
+ou: villains
+uid: schmidt
+userPassword:: e3NzaGF9M3UzcUdCSmFMc2tiUEg0OVJrYlFtUk9HTktFb1lOUXZkU2lOZmc9P
+ Q==

@@ -1,0 +1,10 @@
+dn: cn=avengers,ou=groups,dc=marvel,dc=com
+objectclass: Group
+objectclass: top
+groupType: 2147483650
+cn: avengers
+member: cn=Tony Stark,ou=heroes,dc=marvel,dc=com
+member: cn=Bruce Banner,ou=heroes,dc=marvel,dc=com
+member: cn=Natasha Romanoff,ou=heroes,dc=marvel,dc=com
+member: cn=Steve Rogers,ou=heroes,dc=marvel,dc=com
+member: cn=Thor,ou=heroes,dc=marvel,dc=com

@@ -1,0 +1,14 @@
+dn: cn=Mantis,ou=heroes,dc=marvel,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Mantis
+sn: Mantis
+description: Female
+givenName: Mantis
+mail: mantis@marvel.com
+ou: heroes
+uid: mantis
+userPassword:: e3NzaGF9M3UzcUdCSmFMc2tiUEg0OVJrYlFtUk9HTktFb1lOUXZkU2lOZmc9P
+ Q==

@@ -1,0 +1,14 @@
+dn: cn=Rocket Raccoon,ou=heroes,dc=marvel,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Rocket Raccoon
+sn: Raccoon
+description: Halfworlder
+givenName: Rocket
+mail: rocket@marvel.com
+ou: heroes
+uid: rocket
+userPassword:: e3NzaGF9M3UzcUdCSmFMc2tiUEg0OVJrYlFtUk9HTktFb1lOUXZkU2lOZmc9P
+ Q==

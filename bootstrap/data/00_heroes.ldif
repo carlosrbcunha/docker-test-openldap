@@ -1,0 +1,5 @@
+dn: ou=heroes,dc=marvel,dc=com
+objectClass: top
+objectClass: organizationalUnit
+description: Marvel's heroes
+ou: heroes

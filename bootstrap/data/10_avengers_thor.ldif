@@ -1,0 +1,14 @@
+dn: cn=Thor,ou=heroes,dc=marvel,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Thor
+sn: Thor
+description: DemiGod
+givenName: Thor
+mail: thor@marvel.com
+ou: heroes
+uid: thor
+userPassword:: e3NzaGF9M3UzcUdCSmFMc2tiUEg0OVJrYlFtUk9HTktFb1lOUXZkU2lOZmc9P
+ Q==

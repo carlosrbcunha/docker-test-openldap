@@ -1,0 +1,10 @@
+dn: cn=hydra,ou=groups,dc=marvel,dc=com
+objectclass: Group
+objectclass: top
+groupType: 2147483650
+cn: hydra
+member: cn=Johann Schmidt,ou=villains,dc=marvel,dc=com
+member: cn=Arnin Zola,ou=villains,dc=marvel,dc=com
+member: cn=Alexander Pierce,ou=villains,dc=marvel,dc=com
+member: cn=Wolfgang von Strucker,ou=villains,dc=marvel,dc=com
+member: cn=Werner Reinhardt,ou=villains,dc=marvel,dc=com

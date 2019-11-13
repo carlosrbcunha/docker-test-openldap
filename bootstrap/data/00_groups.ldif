@@ -1,0 +1,5 @@
+dn: ou=groups,dc=marvel,dc=com
+objectClass: top
+objectClass: organizationalUnit
+description: Marvel's user groups
+ou: groups

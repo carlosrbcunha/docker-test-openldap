@@ -1,0 +1,14 @@
+dn: cn=Alexander Pierce,ou=villains,dc=marvel,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Alexander Pierce
+sn: Pierce
+description: Human
+givenName: Alexander
+mail: pierce@marvel.com
+ou: villains
+uid: pierce
+userPassword:: e3NzaGF9M3UzcUdCSmFMc2tiUEg0OVJrYlFtUk9HTktFb1lOUXZkU2lOZmc9P
+ Q==
