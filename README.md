@@ -4,7 +4,7 @@
 
 This image provides an OpenLDAP Server for testing LDAP applications, i.e. unit tests. The server is initialized with the example domain `avengers.com` with data from the [Marvel Wiki].
 
-Parts of the image are based on the work from Nick Stenning [docker-slapd][slapd] and Bertrand Gouny [docker-openldap][openldap].
+Parts of the image are based on the work from Nick Stenning [docker-slapd][slapd], Bertrand Gouny [docker-openldap][openldap] and Marcelo Almeida [inspiration and costumization].
 
 The Flask extension [flask-ldapconn][flaskldapconn] use this image for unit tests.
 
@@ -16,7 +16,7 @@ The Flask extension [flask-ldapconn][flaskldapconn] use this image for unit test
 
 ## Features
 
-* Initialized with data from Futurama
+* Initialized with data from Marvel
 * Support for TLS (snake oil cert on build)
 * memberOf overlay support
 * MS-AD Style Groups support
