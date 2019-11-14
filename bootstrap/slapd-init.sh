@@ -4,10 +4,10 @@ set -eu
 readonly DATA_DIR="/bootstrap/data"
 readonly CONFIG_DIR="/bootstrap/config"
 
-readonly LDAP_DOMAIN=marvel.com
+readonly LDAP_DOMAIN="marvel.com"
 readonly LDAP_ORGANISATION="Marvel"
 readonly LDAP_BINDDN="cn=admin,dc=marvel,dc=com"
-readonly LDAP_SECRET=Avengers!
+readonly LDAP_SECRET="BestPasswordEver"
 
 readonly LDAP_SSL_KEY="/etc/ldap/ssl/ldap.key"
 readonly LDAP_SSL_CERT="/etc/ldap/ssl/ldap.crt"
