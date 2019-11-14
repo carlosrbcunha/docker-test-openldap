@@ -26,8 +26,8 @@ The Flask extension [flask-ldapconn][flaskldapconn] use this image for unit test
 ## Usage
 
 ```
-docker pull rroemhild/test-openldap
-docker run --privileged -d -p 389:389 rroemhild/test-openldap
+docker pull carlosrbcunha/docker-test-openldap
+docker run --privileged -d -p 389:389 carlosrbcunha/docker-test-openldap
 ```
 
 ## Exposed ports
@@ -49,7 +49,7 @@ docker run --privileged -d -p 389:389 rroemhild/test-openldap
 
 | Admin            | Secret           |
 | ---------------- | ---------------- |
-| cn=admin,dc=marvel,dc=com | Endg4m3 |
+| cn=admin,dc=marvel,dc=com | BestPasswordEver |
 
 ### ou=heroes,dc=marvel,dc=com
 
@@ -64,7 +64,6 @@ docker run --privileged -d -p 389:389 rroemhild/test-openldap
 | displayName      | Ironman |
 | employeeType     | Heroe |
 | givenName        | Tony |
-| jpegPhoto        | JPEG-Photo (630x507 Pixel, 26780 Bytes) |
 | mail             | ironman@marvel.com |
 | ou               | heroes |
 | uid              | ironman |
@@ -82,7 +81,6 @@ docker run --privileged -d -p 389:389 rroemhild/test-openldap
 | displayName      | Hulk |
 | employeeType     | Heroe |
 | givenName        | Bruce |
-| jpegPhoto        | JPEG-Photo (429x350 Pixel, 22132 Bytes) |
 | mail             | hulk@marvel.com |
 | ou               | Heroes |
 | uid              | hulk |
@@ -100,7 +98,6 @@ docker run --privileged -d -p 389:389 rroemhild/test-openldap
 | displayName      | BlackWidow |
 | employeeType     | Heroe |
 | givenName        | Natasha |
-| jpegPhoto        | JPEG-Photo (343x280 Pixel, 26438 Bytes) |
 | mail             | blackwidow@marvel.com |
 | ou               | Heroes |
 | uid              | blackwidow |
@@ -148,7 +145,6 @@ docker run --privileged -d -p 389:389 rroemhild/test-openldap
 | description      | Titan Warlord |
 | employeeType     | Villain |
 | givenName        | Thanos |
-| jpegPhoto        | JPEG-Photo (429x350 Pixel, 26526 Bytes) |
 | mail             | thanos@thanos.com |
 | ou               | Villains |
 | uid              | thanos |
@@ -164,7 +160,6 @@ docker run --privileged -d -p 389:389 rroemhild/test-openldap
 | description      | Human |
 | employeeType     | Hydra |
 | givenName        | Johann |
-| jpegPhoto        | JPEG-Photo (436x570 Pixel, 26819 Bytes) |
 | mail             | redskull@marvel.com |
 | ou               | Villains |
 | uid              | redskull |
